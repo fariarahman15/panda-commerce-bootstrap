@@ -25,7 +25,7 @@
         <!-- navbar  -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-              <a class="navbar-brand" href="#"> 
+              <a class="navbar-brand ps-5" href="#"> 
                   <img class="img-fluid" src="images/logo.png" alt="">
                 </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,20 +49,85 @@
                 </ul>
                 <form class="d-flex">
                     <div class="search-box d-flex justify-content-between">
-                        <input class="form-control border-0 rounded-pill me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn" type="submit">
-                            <i id="magnifying-glass" class="fa-solid fa-magnifying-glass"></i>
+                        <input class="form-control text-muted border-0 rounded-pill me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button id="magnifying-glass" class="btn" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
                         </button>
-
                     </div>
-                    
-                  
-                    
-                  </div>
                 </form>
               </div>
             </div>
-          </nav>
+        </nav>
+
+        <!-- carousel  -->
+        <section class="container">
+            <div id="carouselExampleFade" class="carousel slide     carousel-fade carousel-body m-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                <!-- headphone  -->
+                  <div class="carousel-item active">
+                      <div class="row d-flex justify-content-center align-items-center">
+                          <div class="col-lg-7 p-5">
+                                  <div class="card-body p-5">
+                                    <h1 class="card-title ps-4">Cool Dude headphone</h1>
+                                    <p class="card-text ps-4">This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                                    <h1 class="ps-4">$420</h1>
+                                    <div class="button ps-4">
+                                        <a href="#" class="btn btn-warning">Buy Now</a>
+                                    </div>
+                                  </div>
+                          </div>
+                          <div class="col-lg-5 d-flex justify-content-center">
+                            <img class="img-fluid p-5" src="images/banner-images/headphone.png" class="w-100" alt="...">
+                          </div>
+                      </div>
+                    </div>
+                <!-- tv  -->
+                  <div class="carousel-item">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-lg-7 p-5">
+                            <div class="card-body p-5">
+                                <h1 class="card-title ps-4">Mega LCD TV For Sports</h1>
+                                <p class="card-text ps-4">This is the best tv in the world for people who just want to waste time in front of tv.</p>
+                                <h1 class="ps-4">$1200</h1>
+                                <div class="button ps-4">
+                                    <a href="#" class="btn btn-warning">Buy Now</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-lg-5 d-flex justify-content-center">
+                          <img class="img-fluid p-5" src="images/banner-images/tv.png" class="w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                  <!-- xbox  -->
+                  <div class="carousel-item">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-lg-7 p-5">
+                            <div class="card-body p-5">
+                                <h1 class="card-title ps-4">X-Box for your living room</h1>
+                                <p class="card-text ps-4">This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
+                                <h1 class="ps-4">$600</h1>
+                                <div class="button ps-4">
+                                    <a href="#" class="btn btn-warning">Buy Now</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-lg-5 d-flex justify-content-center">
+                          <img class="img-fluid p-5" src="images/banner-images/xbox.png" class="w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
     </header>
 
     <!-- main section  -->
